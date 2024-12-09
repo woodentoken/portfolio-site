@@ -25,3 +25,4 @@ assets_compiled
 *.njsproj
 *.sln
 *.sw?
+uv.lock
