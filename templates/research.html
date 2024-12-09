@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}Research{% endblock %}
+{% block content %}
+<div class="research">
+  <div>
+    <p style="text-align: center";>
+  My research concerns the design and development of control strategies for <b>morphing bio-informed fixed wing aircraft</b>. <br><br>
+  My work combines dynamics and control theory with reinforcement and statistical learning while taking inspiration from avian biology. <br><br>
+  This work seeks to enhance our collective understanding of <b>small morphing aircraft design and control</b>.
+  </p>
+  </div>
+
+  <div class="container">
+    <div class="left">
+      <h2>Reinforcement Learning for Morphing Aircraft Design and Control Development</h2>
+
+      <p>Reinforcement Learning offers an enticing tool to solve the complexity of a highly nonlinear, high dimensional control system. By exploring possible control strategies in the framework of a reward function, we can isolate controllers that perform well and hone our understanding of why they perform well.</p>
+
+      <p>However, simulation environments for Reinforcement Learning rely on numeric models and accurate environments. Running parallel high fidelity aerodynamic environments within an RL algorithm to model fixed wing morphing flight is computationally intractable, thus we seek to approach this problem with a “simpler” multi-fidelity analog environment alongside a model of our morphing aircraft.</p>
+    </div>
+
+    <div class="right">
+      <h2>Morphing Flight Dynamics</h2>
+
+      <p>Morphing extends adaptability and increases the effective missions that a single platform can efficiently perform. This adaptability is enabled by slow morphing that has been present in a variety of platforms for many years.</p>
+
+      <p>However, recent advances in material science, onboard computing, and advanced manufacturing has opened up new areas in the realm of dynamic morphing, which can be viewed as fast, large scale control actuation that significantly alters system dynamics. This rapid morphing can be seen in natural fliers and seems to enable extreme levels of maneuverability and agility. Birds exemplify the benefits of these large actuation (morphing) high degree of freedom control systems, routinely executing flight maneuvers outside the ability of current engineered systems, such as perching. This morphing is expected to introduce transient aerodynamics and considerable inertial effects in addition to underlying static effects.</p>
+
+      <p>The physics involved in large structural changes and the highly nonlinear aerodynamics encountered in aggressive flight present problems making a fundamental understanding of avian-inspired morphing challenging. For instance, a model-based control design for  a morphing flier must generalize not only to highly nonlinear conditions, but also to highly variable configurations of the aircraft. Using classical modeling techniques with advanced control algorithms may be a viable solution to this problem, but recent advances in machine learning could also advance the study from a different angle.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="left">
+      <h2>Reinforcement Learning for Morphing Aircraft Design and Control Development</h2>
+
+      <p>Reinforcement Learning offers an enticing tool to solve the complexity of a highly nonlinear, high dimensional control system. By exploring possible control strategies in the framework of a reward function, we can isolate controllers that perform well and hone our understanding of why they perform well.</p>
+
+      <p>However, simulation environments for Reinforcement Learning rely on numeric models and accurate environments. Running parallel high fidelity aerodynamic environments within an RL algorithm to model fixed wing morphing flight is computationally intractable, thus we seek to approach this problem with a “simpler” multi-fidelity analog environment alongside a model of our morphing aircraft.</p>
+    </div>
+
+    <div class="right">
+      <h2>Machine Learning for Morphing Aircraft Design and Control Development</h2>
+
+      <p>Machine Learning offers a different approach to the problem of morphing aircraft design and control development. By training a model on a dataset of morphing aircraft configurations and their corresponding control inputs, we can predict the control inputs for a given configuration. This model can be used to develop a control strategy for a morphing aircraft that has not been seen before.</p>
+
+      <p>However, the challenge of training a model on a dataset of morphing aircraft configurations and their corresponding control inputs is that the dataset must be large enough to capture the complexity of the system. This requires a large amount of data, which can be difficult to obtain. Additionally, the model must be able to generalize to new configurations that it has not seen before, which can be difficult to achieve.</p>
+    </div>
+  </div>
+
+  <div>
+    <p style="text-align: center";>
+    My work is funded by the Army Educational Outreach Program (AEOP).
+    </p>
+
+  </div>
+</div>
+{% endblock %}
