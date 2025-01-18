@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
 // script.js
 
 // Get the toggle element and the current theme
-const themeToggle = document.getElementById('themeToggle');
+const themeToggle = document.getElementById('themeToggle') as HTMLInputElement;
 const currentTheme = localStorage.getItem('theme');
 
 // Check if a theme is stored in localStorage
@@ -85,7 +85,7 @@ themeToggle.addEventListener('change', () => {
   const newTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', newTheme); // Apply the new theme
   // });
-  if (themeToggle.checked) {
+  if (themeToggle?.checked) {
     document.body.classList.remove('light-theme');
     document.body.classList.add('dark-theme');
     localStorage.setItem('theme', 'dark-theme');

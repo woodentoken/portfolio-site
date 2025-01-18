@@ -179,7 +179,7 @@ div {
 
   .name {
     text-align: center;
-    font-size: xx-large;
+    font-size: larger;
     text-align: right;
     font-weight: 800;
     // margin: auto;
@@ -285,7 +285,7 @@ div {
   display: flex;
   justify-content: center;
   flex-grow: 1;
-  font-size: 16;
+  font-size: 20;
 
   .container {
     display: flex;
@@ -294,12 +294,13 @@ div {
     padding: 20px;
     text-align: left;
     min-width: 200px;
+    // max-width: 1000px;
     line-height: 20px;
 
     .filler{
-      flex-grow: 3;
+      flex-grow: 5;
       padding: 20px;
-      min-width: 180px;
+      min-width: 200px;
     }
 
     h3 {

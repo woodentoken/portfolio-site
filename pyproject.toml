@@ -6,4 +6,6 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "flask>=3.1.0",
+    "typescript>=0.0.12",
+    "vite>=1.5.2",
 ]
